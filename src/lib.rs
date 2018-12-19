@@ -1,3 +1,9 @@
+/*!
+# Chinese Variant
+
+An enum to represent the variants (traditional and simple) of the Chinese Language.
+*/
+
 /// 繁體中文(Traditional Chinese)或簡體中文(Simple Chinese)。
 #[derive(Debug, Copy, Clone, Eq, PartialEq, Hash)]
 pub enum ChineseVariant {
