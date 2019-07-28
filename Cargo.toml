@@ -10,8 +10,8 @@ description= "An enum to represent the variants of the Chinese Language."
 readme = "README.md"
 license = "MIT"
 
-[badges]
-travis-ci = { repository = "magiclen/chinese-variant", branch = "master" }
-appveyor = { repository = "magiclen/chinese-variant", branch = "master", service = "github" }
+[badges.travis-ci]
+repository = "magiclen/chinese-variant"
+branch = "master"
 
 [dependencies]
