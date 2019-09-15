@@ -1,8 +1,6 @@
-/*!
-# Chinese Variant
-
-An enum to represent the variants (traditional and simple) of the Chinese Language.
-*/
+//! # Chinese Variant
+//!
+//! An enum to represent the variants (traditional and simple) of the Chinese Language.
 
 #![no_std]
 
@@ -17,12 +15,12 @@ pub enum ChineseVariant {
 
 impl ChineseVariant {
     /// 是否為簡體中文(Is this simple?)
-    pub fn is_simple(&self) -> bool {
-        *self == ChineseVariant::Simple
+    pub fn is_simple(self) -> bool {
+        self == ChineseVariant::Simple
     }
 
     /// 是否為繁體中文(Is this traditional?)
-    pub fn is_traditional(&self) -> bool {
-        *self == ChineseVariant::Traditional
+    pub fn is_traditional(self) -> bool {
+        self == ChineseVariant::Traditional
     }
 }
