@@ -1,6 +1,8 @@
-//! # Chinese Variant
-//!
-//! An enum to represent the variants (traditional and simple) of the Chinese Language.
+/*!
+# Chinese Variant
+
+An enum to represent the variants (traditional and simple) of the Chinese Language.
+*/
 
 #![no_std]
 
