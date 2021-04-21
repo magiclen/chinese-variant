@@ -1,7 +1,7 @@
 Chinese Variant
 ====================
 
-[![Build Status](https://travis-ci.org/magiclen/chinese-variant.svg?branch=master)](https://travis-ci.org/magiclen/chinese-variant)
+[![CI](https://github.com/magiclen/chinese-variant/actions/workflows/ci.yml/badge.svg)](https://github.com/magiclen/chinese-variant/actions/workflows/ci.yml)
 
 An enum to represent the variants (traditional and simple) of the Chinese Language.
 
