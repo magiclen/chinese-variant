@@ -3,6 +3,7 @@ name = "chinese-variant"
 version = "1.0.9"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2021"
+rust-version = "1.56"
 repository = "https://github.com/magiclen/chinese-variant"
 homepage = "https://magiclen.org/chinese-variant"
 keywords = ["chinese", "variant", "simple", "traditional"]
