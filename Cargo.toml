@@ -1,6 +1,6 @@
 [package]
 name = "chinese-variant"
-version = "1.1.0"
+version = "1.1.1"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2021"
 rust-version = "1.56"
@@ -17,8 +17,6 @@ enum-ordinalize = { version = "4", optional = true }
 
 [features]
 default = []
-
-enum-ordinalize = ["dep:enum-ordinalize"]
 
 [package.metadata.docs.rs]
 all-features = true
