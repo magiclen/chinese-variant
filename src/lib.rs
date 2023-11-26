@@ -6,23 +6,25 @@ An enum to represent the variants (traditional and simple) of the Chinese Langua
 
 #![no_std]
 
-/// 繁體中文(Traditional Chinese)或簡體中文(Simple Chinese)。
+/// The different writing systems used for the Chinese language. Traditional Chinese (繁體中文) or Simple Chinese (简体中文).
 #[derive(Debug, Copy, Clone, Eq, PartialEq, Hash)]
 pub enum ChineseVariant {
-    /// 繁體中文(Traditional Chinese)。
+    /// 繁體中文。
     Traditional,
-    /// 簡體中文(Simple Chinese)。
+    /// 简体中文。
     Simple,
 }
 
 impl ChineseVariant {
-    /// 是否為簡體中文(Is this simple?)
-    pub fn is_simple(self) -> bool {
-        self == ChineseVariant::Simple
+    /// Is this simple?
+    #[inline]
+    pub const fn is_simple(self) -> bool {
+        matches!(self, ChineseVariant::Simple)
     }
 
-    /// 是否為繁體中文(Is this traditional?)
-    pub fn is_traditional(self) -> bool {
-        self == ChineseVariant::Traditional
+    /// Is this traditional?
+    #[inline]
+    pub const fn is_traditional(self) -> bool {
+        matches!(self, ChineseVariant::Traditional)
     }
 }
