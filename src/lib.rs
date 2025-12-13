@@ -5,7 +5,8 @@ An enum to represent the variants (traditional and simple) of the Chinese Langua
 */
 
 #![no_std]
-#![cfg_attr(docsrs, feature(doc_auto_cfg))]
+#![allow(unexpected_cfgs)]
+#![cfg_attr(docsrs_1_92, feature(doc_cfg))]
 
 #[cfg(feature = "enum-ordinalize")]
 use enum_ordinalize::Ordinalize;
