@@ -1,9 +1,9 @@
 [package]
 name = "chinese-variant"
-version = "1.1.5"
+version = "1.1.6"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2021"
-rust-version = "1.68"
+rust-version = "1.71"
 repository = "https://github.com/magiclen/chinese-variant"
 homepage = "https://magiclen.org/chinese-variant"
 keywords = ["chinese", "variant", "simple", "traditional"]
@@ -21,4 +21,4 @@ enum-ordinalize = ["dep:enum-ordinalize"]
 
 [package.metadata.docs.rs]
 all-features = true
-rustdoc-args = ["--cfg", "docsrs_1_92"]
+rustdoc-args = ["--cfg", "docsrs"]
