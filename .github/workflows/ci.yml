@@ -58,7 +58,7 @@ jobs:
           - macos-latest
           - windows-latest
         toolchain:
-          - "1.71"
+          - "1.89"
         features:
           -
           - --features enum-ordinalize
